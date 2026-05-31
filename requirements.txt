@@ -1,0 +1,35 @@
+# --- Core scientific stack ---
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.7
+Pillow>=10.0
+
+# --- Image processing ---
+scikit-image>=0.22
+opencv-python>=4.8
+
+# --- Classical ML ---
+scikit-learn>=1.3
+
+# --- Deep learning (mała sieć LeNet w PyTorch) ---
+torch>=2.0
+torchvision>=0.15
+
+# --- Silniki OCR ---
+pytesseract>=0.3.10        # wrapper; sam Tesseract trzeba zainstalować osobno (patrz README)
+easyocr>=1.7.0             # ~70 MB modelu przy 1. uruchomieniu
+transformers>=4.40         # TrOCR / Donut
+sentencepiece              # tokenizer dla niektórych modeli HF
+huggingface-hub>=0.20
+
+# --- Metryki ---
+jiwer>=3.0                 # CER / WER
+
+# --- Pobieranie danych ---
+requests>=2.31
+
+# --- Notebook ---
+jupyter>=1.0
+ipykernel
+ipywidgets
+tqdm>=4.66

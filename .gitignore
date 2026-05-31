@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Wirtualne środowiska ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# --- IDE / edytory ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# --- Dane uruchomieniowe ---
+# obrazy i modele wygenerowane/pobrane przez notebook
+data/
+models/
+.EasyOCR/
+
+# Hugging Face / Torch cache
+.cache/
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# --- Logi ---
+*.log
+logs/
+
+# --- Wyjścia LaTeX (jeśli dodasz prezentację) ---
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
